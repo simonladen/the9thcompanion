@@ -45,11 +45,12 @@
     <string name="text_deployment4">4. Encircle</string>
     <string name="text_deployment5">5. Refused Flank</string>
     <string name="text_deployment6">6. Marching Columns</string>
-    <string name="text_map1">General</string>
+    <string name="text_map1">Frontline Clash</string>
     <string name="text_map2">Counterthrust</string>
     <string name="text_map3">Encircle</string>
-    <string name="text_map4">Frontline</string>
-    <string name="text_map5">Refused Flank</string>
+    <string name="text_map4">Refused Flank</string>
+    <string name="text_map5">Dawn Assault</string>
+    <string name="text_map6">Marching Columns</string>
     <string name="textVp1">Game size</string>
     <string name="editVp1"></string>
     <string name="textVp2">Points earned by Army 1</string>

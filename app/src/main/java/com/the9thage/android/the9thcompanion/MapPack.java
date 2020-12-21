@@ -28,10 +28,10 @@ public class MapPack extends Activity  {
     }
 
     public void showMap1(View view) {
-        // General Map
+        // Frontline Clash
         Random r = new Random();
-        int selectObj = r.nextInt(16) +1;
-        String viewId = "mapgeneral" + selectObj;
+        int selectObj = r.nextInt(6) +1;
+        String viewId = "mapfrontline" + selectObj;
         int resId = getResources().getIdentifier(viewId, "drawable", getPackageName());
         showImage(getDrawable(resId));
     }
@@ -39,7 +39,7 @@ public class MapPack extends Activity  {
     public void showMap2(View view) {
         // Counterthrust
         Random r = new Random();
-        int selectObj = r.nextInt(4) +1;
+        int selectObj = r.nextInt(2) +1;
         String viewId = "mapcounter" + selectObj;
         int resId = getResources().getIdentifier(viewId, "drawable", getPackageName());
         showImage(getDrawable(resId));
@@ -48,26 +48,35 @@ public class MapPack extends Activity  {
     public void showMap3(View view) {
         // Encircle
         Random r = new Random();
-        int selectObj = r.nextInt(4) +1;
+        int selectObj = r.nextInt(2) +1;
         String viewId = "mapencircle" + selectObj;
         int resId = getResources().getIdentifier(viewId, "drawable", getPackageName());
         showImage(getDrawable(resId));
     }
 
     public void showMap4(View view) {
-        // Frontline
+        // Refused Flank
         Random r = new Random();
-        int selectObj = r.nextInt(4) +1;
-        String viewId = "mapfrontline" + selectObj;
+        int selectObj = r.nextInt(2) +1;
+        String viewId = "maprefused" + selectObj;
         int resId = getResources().getIdentifier(viewId, "drawable", getPackageName());
         showImage(getDrawable(resId));
     }
 
     public void showMap5(View view) {
-        // Refused Flank
+        // Dawn Assault
         Random r = new Random();
-        int selectObj = r.nextInt(4) +1;
-        String viewId = "maprefused" + selectObj;
+        int selectObj = r.nextInt(2) +1;
+        String viewId = "mapdawn" + selectObj;
+        int resId = getResources().getIdentifier(viewId, "drawable", getPackageName());
+        showImage(getDrawable(resId));
+    }
+
+    public void showMap6(View view) {
+        // Marching Columns
+        Random r = new Random();
+        int selectObj = r.nextInt(2) +1;
+        String viewId = "mapmarching" + selectObj;
         int resId = getResources().getIdentifier(viewId, "drawable", getPackageName());
         showImage(getDrawable(resId));
     }
