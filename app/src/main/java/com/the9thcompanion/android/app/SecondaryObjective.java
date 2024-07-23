@@ -1,4 +1,4 @@
-package com.the9thage.android.the9thcompanion;
+package com.the9thcompanion.android.app;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -7,10 +7,8 @@ import android.widget.TextView;
 
 import java.util.Random;
 
-import static android.graphics.Color.BLUE;
 import static android.graphics.Color.CYAN;
 import static android.graphics.Color.WHITE;
-import static android.graphics.Color.YELLOW;
 
 public class SecondaryObjective extends Activity  {
 

@@ -14,9 +14,8 @@
   limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.the9thage.android.the9thcompanion"
-    android:versionCode="10"
-    android:versionName="0.20">
+    android:versionCode="12"
+    android:versionName="0.21">
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
@@ -26,8 +25,9 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
-            android:label="@string/app_name">
+            android:name="com.the9thcompanion.android.app.MainActivity"
+            android:label="@string/app_name"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -35,23 +35,23 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".SecondaryObjective"
-            android:parentActivityName=".MainActivity" />
+            android:name="com.the9thcompanion.android.app.SecondaryObjective"
+            android:parentActivityName="com.the9thcompanion.android.app.MainActivity" />
         <activity
-            android:name=".Deployment"
-            android:parentActivityName=".MainActivity" />
+            android:name="com.the9thcompanion.android.app.Deployment"
+            android:parentActivityName="com.the9thcompanion.android.app.MainActivity" />
         <activity
-            android:name=".MapPack"
-            android:parentActivityName=".MainActivity" />
+            android:name="com.the9thcompanion.android.app.MapPack"
+            android:parentActivityName="com.the9thcompanion.android.app.MainActivity" />
         <activity
-            android:name=".VictoryPoints"
-            android:parentActivityName=".MainActivity" />
+            android:name="com.the9thcompanion.android.app.VictoryPoints"
+            android:parentActivityName="com.the9thcompanion.android.app.MainActivity" />
         <activity
-            android:name=".References"
-            android:parentActivityName=".MainActivity" />
+            android:name="com.the9thcompanion.android.app.References"
+            android:parentActivityName="com.the9thcompanion.android.app.MainActivity" />
         <activity
-            android:name=".SpellSelection"
-            android:parentActivityName=".MainActivity" />
+            android:name="com.the9thcompanion.android.app.SpellSelection"
+            android:parentActivityName="com.the9thcompanion.android.app.MainActivity" />
     </application>
 
 </manifest>

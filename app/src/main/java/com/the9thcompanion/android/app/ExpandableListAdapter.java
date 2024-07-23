@@ -1,4 +1,4 @@
-package com.the9thage.android.the9thcompanion;
+package com.the9thcompanion.android.app;
 
 import java.util.HashMap;
 import java.util.List;
@@ -11,7 +11,7 @@ import android.view.ViewGroup;
 import android.widget.BaseExpandableListAdapter;
 import android.widget.TextView;
 
-import com.the9thage.android.the9thcompanion.R;
+import com.the9thcompanion.android.app.R;
 
 public class ExpandableListAdapter extends BaseExpandableListAdapter {
 

@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="55dip"
     android:orientation="horizontal"
-    tools:context="com.the9thage.android.the9thcompanion.SpellSelection"
+    tools:context="com.the9thcompanion.android.app.SpellSelection"
     android:theme="@android:style/Theme.Material.Light" >
 
     <TextView

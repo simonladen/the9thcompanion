@@ -1,4 +1,4 @@
-package com.the9thage.android.the9thcompanion;
+package com.the9thcompanion.android.app;
 
 import android.app.Activity;
 import android.app.Fragment;

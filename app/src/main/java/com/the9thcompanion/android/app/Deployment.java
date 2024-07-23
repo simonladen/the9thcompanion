@@ -1,4 +1,4 @@
-package com.the9thage.android.the9thcompanion;
+package com.the9thcompanion.android.app;
 
 import android.app.Activity;
 import android.app.Dialog;
@@ -10,7 +10,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.Window;
 import android.widget.FrameLayout;
-import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 

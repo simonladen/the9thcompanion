@@ -8,7 +8,7 @@
     android:layout_marginLeft="10dp"
     android:layout_marginRight="10dp"
     android:theme="@android:style/Theme.Material.Light"
-    tools:context="com.the9thage.android.the9thcompanion.SpellSelection">
+    tools:context="com.the9thcompanion.android.app.SpellSelection">
 
 
     <TextView
